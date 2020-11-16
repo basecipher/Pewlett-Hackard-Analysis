@@ -1,33 +1,25 @@
 # Pewlett-Hackard-Analysis
 
-# Stock Analysis
-
 ## Overview of Project
-
-Using Excel built-in scripting language VBA to help a client predict wisest investment from a pool of select tickers.
+Use quickbdb and Pgadmin to create quiery tables in CSV files.
 
 ### Purpose
-Automate the process of determining the most favorable investment stock by using Visual Basic for Application programming.
+Design an ERD that will apply to the data.
+Create and use a SQL database.
+Import and export large CSV datasets into pgAdmin.
+Practice using different joins to create new tables in pgAdmin.
+Write basic to intermediate-level SQL statements.
 
+![Database Relationships](https://github.com/basecipher/Pewlett-Hackard-Analysis/blob/main/EmployeeDB.png)
 
 ## Analysis and Challenges
-* Our client Steve provided a spreadsheet of various stocks including 8 colums that depicted Ticker, Date, Open, High, Low, Close, Adj Close prices along with Volume of shares traded which essentially is the number of contracts that have changed hands per day.
-
-* The below images show the return analysis runtime for each respective year 2017 and 2018.
-
-![2017](https://github.com/basecipher/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
-
-![2018](https://github.com/basecipher/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
+* Bob's manager commmisioned me with the assignment of determining the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program
 
 ### Analysis of Outcome
-* Writing code with static variables resulted in average runtimes of over 1.5 seconds.
-* Running code using refactored index to access data in an array took 1.13 seconds to execute "2017" and 1.05 seconds for "2018"
-* Creating arrays allowed code to be cleaner, more organize, less resource intensive and quicker run times than conventional use.
+* We can deduce that there will be a great need to hire several qualified individuals as the silver tsunami of retirees will leave a great void in the workforce.
 
 ### Challenges and Difficulties Encountered
-* It was difficult to conceptualize and implement nested for loops, indexes and arrays at first but with practice was able to see how useful they are as stated above along easier to troubleshoot/debug.
+* It was difficult to conceptualize the primary and foreign key concept initially
 
 ## Results
-* Steve's best stock options choices for 2018 are ENPH (81.9%) and RUN (84%) as they give off the best rate of return for the most recent year.
-* From a coding standpoint refactoring the code with arrays was beneficial in three ways:  faster runtime, less resource intensive and easier to troubleshoot common errors such as "Compile Error: Expected Variable" which denotes I have used incorrectly somewhere to use a keyword for a variable name.
-* I really enjoyed the process of developing meaningful code.  I particularly enjoyed creating form control buttons and see myself using them constantly in the future with my personal spreadsheets.
+* As there are not enough qualified employees when the mass retiring takes place we recommend manager Bob needs to begin traning 6 months to a year before employees retire to maintain proper company operations.
