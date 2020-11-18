@@ -1,6 +1,6 @@
 -- Creating tables for PH-EmployeeDB
 CREATE TABLE departments (
-	dept_no VARCHAR(4) NOT NULL,
+	dept_no INT NOT NULL,
     dept_name VARCHAR(40) NOT NULL,
     PRIMARY KEY (dept_no),
     UNIQUE (dept_name)
@@ -37,7 +37,7 @@ CREATE TABLE salaries (
 );
 
 CREATE TABLE dept_emp (
-	dept_no VARCHAR(4) NOT NULL,
+	dept_no INT NOT NULL,
 	emp_no INT NOT NULL,
 	from_date DATE NOT NULL,
   	to_date DATE NOT NULL,
@@ -58,3 +58,6 @@ CREATE TABLE titles (
 )
 
 --SELECT * FROM departments;
+--DROP TABLE employees CASCADE;
+--DROP TABLE dept_manager CASCADE;
+--DROP TABLE departments CASCADE;
