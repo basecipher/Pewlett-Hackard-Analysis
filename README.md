@@ -22,4 +22,5 @@ Write basic to intermediate-level SQL statements.
 * It was difficult to conceptualize the primary and foreign key concept initially
 
 ## Results
+* As indicated by the requested 'retirement_titles' query table.  There will be a need to fill 33,118 jobs after the "silver tsunami" retires.
 * As there are not enough qualified employees when the mass retiring takes place we recommend manager Bob needs to begin traning 6 months to a year before employees retire to maintain proper company operations.
